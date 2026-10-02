@@ -1,0 +1,148 @@
+.vertical-baseline{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.vertical-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.vertical-space-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.horizontal-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.horizontal-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.horizontal-baseline{
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+}
+
+#horizontal-main-container{
+    height: 1920px;
+    width: 1920px;
+}
+#vertical-main-container{
+    height: 1920px;
+    width: 1480px;
+    gap: 15px;
+}
+#top-container{
+    height: 70px;
+    width: 1480px;
+
+}
+#top-container-inside{
+    height: 50px;
+    width: 1480px;
+}
+#top-logo{
+    height: 40px;
+    width: 189px;
+}
+#top-middle{
+    height: 29px;
+    width: 316px;
+    text-align: center;
+    
+}
+
+#top-right{
+    height: 50px;
+    width: 189px;
+    border-radius: 10px;
+    color: white;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#tg-adv{
+    height: 340px;
+    width: 1440px;
+    gap: 12px;
+    border-style:solid;
+    border-radius: 24px;
+    border-width: 5px;
+}
+#tg-adv-ampty{
+    height: 340px;
+    width: 1440px;
+    gap: 12px;
+}
+
+#tg-adv-text{
+    font-size: 54px;
+    width: 600px;
+    text-align: center;
+
+}
+#tg-adv-bottom{
+    height: 50px;
+    width: 260px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+}
+#tg-empty-box{
+    height: 20px;
+
+}
+
+#middle-container{
+    height: 1156px;
+    gap: 16px;
+}
+
+#filter{
+    height: 680px;
+    width: 464px;
+    background-color: grey;
+    border-radius: 24px;
+}
+#vacancies{
+    height: 1300px;
+    width: 952px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    background-color: gray;
+    border-radius: 24px;
+    gap: 20px;
+    padding: 50px;
+}
+
+#card{
+    position: relative;
+    border-radius: 10px;
+    height: 300px;
+    width: 280px;
+    background-color: white;
+}
+span{
+    position: absolute;
+    right: -20px;
+    top: -10px;
+    height: 36px;
+    text-align: center;
+    width: 100px;
+    background-color: blue;
+    border-radius: 24px;
+    color: white;
+    transform: rotate(15deg);
+}
